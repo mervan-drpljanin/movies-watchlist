@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --not-watched-color: #f8d7da;
+  --watched-color: #d1e7dd;
+  --table-head-color: #60b5fd;
+  --body-color: #445563;
+}
+
+body {
+  background-color: var(--body-color) !important;
+}
+
+.header-movies {
+  padding: 0 !important;
+  font-size: 40px;
+}
+
+.not-watched {
+  background-color: var(--not-watched-color);
+}
+
+.watched {
+  background-color: var(--watched-color);
+}
+
+thead {
+  background-color: var(--table-head-color);
+}
